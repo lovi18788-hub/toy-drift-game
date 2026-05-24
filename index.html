@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toy Drift Escape</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="ui">
+<h1>🚓 Toy Drift Escape</h1>
+<div class="score">Score: <span id="score">0</span></div>
+<div class="map">Map: <span id="mapName">Toy City</span></div>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div class="controls">
+<button id="leftBtn">⬅ LEFT</button>
+<button id="rightBtn">RIGHT ➡</button>
+</div>
+
+<div class="game-over" id="gameOver">
+<h2>GAME OVER</h2>
+<p>Your Score: <span id="finalScore"></span></p>
+<button onclick="restartGame()">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
